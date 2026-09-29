@@ -6,7 +6,6 @@ public class Application {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-
         int menu;
 
         do {
@@ -14,15 +13,24 @@ public class Application {
             // (1) 각자 자기 메뉴 한 줄 추가
             System.out.println("1. 오늘 마신 음료 칼로리 합계");
             System.out.println("0. 종료");
-            // ============================== 여기에 추가해주세용
             System.out.print("메뉴 선택 : ");
             menu = sc.nextInt();
 
             switch (menu) {
-                // ================= (2) 각자 자기 case 블록 추가
+                // (2) 각자 자기 case 블록 추가
                 case 1: {
+                    System.out.print("오전 음료 칼로리 : ");
+                    int morning = sc.nextInt();
+                    System.out.print("점심 후 음료 칼로리 : ");
+                    int lunch = sc.nextInt();
+                    System.out.print("오후 음료 칼로리 : ");
+                    int afternoon = sc.nextInt();
+
                     PlusCalculator plus = new PlusCalculator();
-                    plus.drinkCalorieMenu(sc);
+
+                    int total = plus.sumDrinkCalorie(morning, lunch, afternoon);
+
+                    System.out.println("오늘 마신 음료는 총 " + total + " kcal 입니다.");
                     break;
                 }
                 case 0:
@@ -33,34 +41,5 @@ public class Application {
             }
             System.out.println();
         } while (menu != 0);
-    }
-}
-
-/* ============= Application 클래스 외부 ============= */
-// (3) 각자 자기 클래스 추가 (public 없이 class 로 시작)
-
-// ===== 메뉴 1 : 팀장 =====
-class PlusCalculator {
-
-    // 메뉴 1 화면 : 입력받고, 계산 메소드를 부르고, 결과를 출력한다
-    // void : 반환값이 없을 때 사용한다. (출력만 하고 끝)
-    public void drinkCalorieMenu(Scanner sc) {
-
-        System.out.print("오전 음료 칼로리 : ");
-        int morning = sc.nextInt();
-
-        System.out.print("점심 후 음료 칼로리 : ");
-        int lunch = sc.nextInt();
-
-        System.out.print("오후 음료 칼로리 : ");
-        int afternoon = sc.nextInt();
-
-        int total = sumDrinkCalorie(morning, lunch, afternoon);
-
-        System.out.println("오늘 마신 음료는 총 " + total + " kcal 입니다.");
-    }
-
-    public int sumDrinkCalorie(int morning, int lunch, int afternoon) {
-        return morning + lunch + afternoon;
     }
 }
