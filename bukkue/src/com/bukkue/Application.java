@@ -24,14 +24,15 @@ public class Application {
                     int price = sc.nextInt();
                     System.out.print("인원 수 : ");
                     int people = sc.nextInt();
+                    System.out.print("배달비 : ");
+                    int deliveryFee = sc.nextInt();
 
                     if (people == 0) {
                         System.out.println("인원은 0명일 수 없습니다.");
                         break;
                     }
 
-                    DivideCalculator divideCalculator = new DivideCalculator();
-                    int perPerson = divideCalculator.divide(price, people);
+                    int perPerson = divide(price, people, deliveryFee);
                     System.out.println("1인당 " + perPerson + "원");
                     break;
                 case 0:
@@ -45,4 +46,9 @@ public class Application {
         } while (menu != 0);
 
     }
+
+    public static int divide(int price, int people, int deliveryFee) {
+        return (price + deliveryFee) / people;
+    }
+
 }
