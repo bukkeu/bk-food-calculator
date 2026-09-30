@@ -12,6 +12,7 @@ public class Application {
             System.out.println("===== 카페 메뉴 계산기 =====");
             // (1) 각자 자기 메뉴 한 줄 추가
             System.out.println("1. 오늘 마신 음료 칼로리 합계");
+            System.out.println("2. 목표 칼로리까지 남은 양 확인");   // ▼ 추가
             System.out.println("0. 종료");
             System.out.print("메뉴 선택 : ");
             menu = sc.nextInt();
@@ -31,6 +32,19 @@ public class Application {
                     int total = plus.sumDrinkCalorie(morning, lunch, afternoon);
 
                     System.out.println("오늘 마신 음료는 총 " + total + " kcal 입니다.");
+                    break;
+                }
+                case 2: {   // ▼ 추가
+                    System.out.print("목표 칼로리 : ");
+                    int goal = sc.nextInt();
+                    System.out.print("먹은 칼로리 : ");
+                    int eaten = sc.nextInt();
+
+                    MinusCalculator minus = new MinusCalculator();
+
+                    String message = minus.judge(goal, eaten);
+
+                    System.out.println(message);
                     break;
                 }
                 case 0:
