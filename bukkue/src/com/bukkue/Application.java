@@ -13,6 +13,7 @@ public class Application {
             // (1) 각자 자기 메뉴 한 줄 추가
             System.out.println("1. 오늘 마신 음료 칼로리 합계");
             System.out.println("2. 목표 칼로리까지 남은 양 확인"); 
+            System.out.println("4. 배달비 나눠 내기");
             System.out.println("0. 종료");
             System.out.print("메뉴 선택 : ");
             menu = sc.nextInt();
@@ -64,8 +65,13 @@ public class Application {
                     int price = sc.nextInt();
                     System.out.println("인원 수 : ");
                     int people = sc.nextInt();
-                    System.out.println("베달비 : ");
+                    System.out.println("배달비 : ");
                     int deliveryFee = sc.nextInt();
+
+                    if (people == 0) {
+                        System.out.println("인원은 0명일 수 없습니다.");
+                        break;
+                    }
 
                     DivideCalculator dc = new DivideCalculator();
 
