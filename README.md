@@ -14,7 +14,7 @@
 ## 실행 화면
 
 (스크린샷)
-# case 3
+- case 3
 <img width="286" height="410" alt="스크린샷 2026-09-30 122447" src="https://github.com/user-attachments/assets/8df2892f-5c78-4d6f-96cb-8b635701e45e" />
 
 
