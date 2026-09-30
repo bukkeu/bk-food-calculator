@@ -13,9 +13,6 @@
 
 ## 실행 화면
 
-(스크린샷)
-- case 3
-
 
 | 클래스 | PlusCalculator | MinusCalculator | MultiplyCalculator | DivideCalculator |
 | ------ | -------------- | --------------- | ------------------ | ---------------- |
