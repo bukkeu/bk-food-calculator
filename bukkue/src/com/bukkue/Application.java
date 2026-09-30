@@ -47,6 +47,17 @@ public class Application {
                     System.out.println(message);
                     break;
                 }
+
+                case 3:
+                    System.out.println("1인분 칼로리 : ");
+                    int kcal = sc.nextInt();
+                    System.out.println("몇 인분까지 : ");
+                    int max = sc.nextInt();
+
+                    MultiplyCalculator mul = new MultiplyCalculator();
+                    mul.serving(kcal,max);
+                    break;
+
                 case 0:
                     System.out.println("계산기를 종료합니다.");
                     break;
