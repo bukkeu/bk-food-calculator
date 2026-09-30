@@ -34,7 +34,7 @@ public class Application {
                     System.out.println("오늘 마신 음료는 총 " + total + " kcal 입니다.");
                     break;
                 }
-                case 2: {  
+                case 2: {
                     System.out.print("목표 칼로리 : ");
                     int goal = sc.nextInt();
                     System.out.print("먹은 칼로리 : ");
@@ -48,21 +48,41 @@ public class Application {
                     break;
                 }
 
-                case 3:
+                case 3: {
                     System.out.println("1인분 칼로리 : ");
                     int kcal = sc.nextInt();
                     System.out.println("몇 인분까지 : ");
                     int max = sc.nextInt();
 
                     MultiplyCalculator mul = new MultiplyCalculator();
-                    mul.serving(kcal,max);
+                    mul.serving(kcal, max);
                     break;
+                }
 
-                case 0:
+                case 4: {
+                    System.out.println("음식가격 : ");
+                    int price = sc.nextInt();
+                    System.out.println("인원 수 : ");
+                    int people = sc.nextInt();
+                    System.out.println("베달비 : ");
+                    int deliveryFee = sc.nextInt();
+
+                    DivideCalculator dc = new DivideCalculator();
+
+                    int divide = dc.divide(price, people, deliveryFee);
+
+                    System.out.println("1인당 금액 : " + divide);
+                    break;
+                }
+
+                case 0: {
                     System.out.println("계산기를 종료합니다.");
                     break;
-                default:
-                    System.out.println("없는 메뉴입니다. 다시 선택하세요.");
+                }
+                    default:
+                        System.out.println("없는 메뉴입니다. 다시 선택하세요.");
+                        break;
+
             }
             System.out.println();
         } while (menu != 0);
