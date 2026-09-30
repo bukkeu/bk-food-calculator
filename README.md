@@ -16,7 +16,8 @@
 
 | 클래스 | PlusCalculator | MinusCalculator | MultiplyCalculator | DivideCalculator | End |
 | ------ | -------------- | --------------- | ------------------ | ---------------- | --- |
-| **실행 화면** | <img width="220" alt="PlusCalculator 실행 화면" src="https://github.com/user-attachments/assets/f9a538ec-3361-4cd2-b72e-cb9edc956485" /> | <img width="220" alt="MinusCalculator 실행 화면" src="https://github.com/user-attachments/assets/175c0cdb-769f-461c-a0b6-56e12679d260" /> | <img width="220" alt="MultiplyCalculator 실행 화면" src="https://github.com/user-attachments/assets/e5a0c63d-0fb8-4c52-a5a5-fdc1c84b6b39" /> | <img width="220" alt="DivideCalculator 실행 화면" src="https://github.com/user-attachments/assets/d2786b13-da78-4c58-9633-02ac17b1aef0" /> | <img width="220" alt="종료 화면" src="https://github.com/user-attachments/assets/05f2ca61-a630-4622-9225-915786079e90" /> |
+| **실행 화면** | <img width="220" alt="PlusCalculator 실행 화면" src="https://github.com/user-attachments/assets/f9a538ec-3361-4cd2-b72e-cb9edc956485" /> | <img width="220" alt="MinusCalculator 실행 화면" src="https://github.com/user-attachments/assets/175c0cdb-769f-461c-a0b6-56e12679d260" /> | <img width="220" alt="MultiplyCalculator 실행 화면" src="https://github.com/user-attachments/assets/e5a0c63d-0fb8-4c52-a5a5-fdc1c84b6b39" /> | <img width="434" height="480" alt="image" src="https://github.com/user-attachments/assets/b544971d-4ed6-4c80-bfd2-801eaf0abb5f" />
+ | <img width="220" alt="종료 화면" src="https://github.com/user-attachments/assets/05f2ca61-a630-4622-9225-915786079e90" /> |
 
 
 ## 충돌 해결 기록
