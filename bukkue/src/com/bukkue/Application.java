@@ -12,7 +12,8 @@ public class Application {
             System.out.println("===== 카페 메뉴 계산기 =====");
             // (1) 각자 자기 메뉴 한 줄 추가
             System.out.println("1. 오늘 마신 음료 칼로리 합계");
-            System.out.println("2. 목표 칼로리까지 남은 양 확인"); 
+            System.out.println("2. 목표 칼로리까지 남은 양 확인");
+            System.out.println("3. n인분 총 칼로리 확인하기");
             System.out.println("4. 배달비 나눠 내기");
             System.out.println("0. 종료");
             System.out.print("메뉴 선택 : ");
