@@ -16,7 +16,8 @@
 
 | 클래스 | PlusCalculator | MinusCalculator | MultiplyCalculator | DivideCalculator |
 | ------ | -------------- | --------------- | ------------------ | ---------------- |
-| **실행 화면** | 예린 사진 | 아림 사진 | <img width="286" height="410" alt="스크린샷 2026-09-30 122447" src="https://github.com/user-attachments/assets/8df2892f-5c78-4d6f-96cb-8b635701e45e" /> | 재성 사진 |
+| **실행 화면** | 예린 사진 | <img width="564" height="570" alt="스크린샷 2026-09-30 123932" src="https://github.com/user-attachments/assets/287dd959-77dc-4938-afcd-f583dfad862b" />
+ | <img width="286" height="410" alt="스크린샷 2026-09-30 122447" src="https://github.com/user-attachments/assets/8df2892f-5c78-4d6f-96cb-8b635701e45e" /> | 재성 사진 |
 
 ## 충돌 해결 기록
 
