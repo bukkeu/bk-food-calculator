@@ -14,10 +14,14 @@
 ## 실행 화면
 
 
-| 클래스 | PlusCalculator | MinusCalculator | MultiplyCalculator | DivideCalculator |
-| ------ | -------------- | --------------- | ------------------ | ---------------- |
-| **실행 화면** | 예린 사진 | <img width="564" height="570" alt="스크린샷 2026-09-30 123932" src="https://github.com/user-attachments/assets/287dd959-77dc-4938-afcd-f583dfad862b" />
- | <img width="286" height="410" alt="스크린샷 2026-09-30 122447" src="https://github.com/user-attachments/assets/8df2892f-5c78-4d6f-96cb-8b635701e45e" /> | 재성 사진 |
+| 클래스 | PlusCalculator | MinusCalculator | MultiplyCalculator | DivideCalculator | End | 
+| ------ | -------------- | --------------- | ------------------ | ---------------- | --------- |
+| **실행 화면** | <img width="532" height="490" alt="image" src="https://github.com/user-attachments/assets/f9a538ec-3361-4cd2-b72e-cb9edc956485" />
+ | <img width="446" height="434" alt="image" src="https://github.com/user-attachments/assets/175c0cdb-769f-461c-a0b6-56e12679d260" />
+ | <img width="450" height="626" alt="image" src="https://github.com/user-attachments/assets/e5a0c63d-0fb8-4c52-a5a5-fdc1c84b6b39" />
+ |<img width="448" height="486" alt="image" src="https://github.com/user-attachments/assets/d2786b13-da78-4c58-9633-02ac17b1aef0" />
+ | <img width="456" height="368" alt="image" src="https://github.com/user-attachments/assets/05f2ca61-a630-4622-9225-915786079e90" />   | 
+
 
 ## 충돌 해결 기록
 
