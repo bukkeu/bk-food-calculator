@@ -8,7 +8,7 @@
 |------|----------------------|---------------|--------------------|---------------|-------|-----|
 | 1    | 오늘 마신 음료 칼로리 합계 | 김예린 (팀장) | PlusCalculator     | sumDrinkCalorie | #1    | #7, #10  |
 | 2    | 남은 칼로리          | 신아림        | MinusCalculator    | minus, judge | #2    | #11  |
-| 3    | n인분 칼로리 표      | 서수영        | MultiplyCalculator | (메소드 이름) | #3    | #12  |
+| 3    | n인분 칼로리 표      | 서수영        | MultiplyCalculator | ser3, serving | #3    | #12  |
 | 4    | 배달 더치페이        | 이재성        | DivideCalculator   | (메소드 이름) | #4    | #5  |
 
 ## 실행 화면
